@@ -21,7 +21,7 @@ footer {
     font-family: 'Noto Sans', sans-serif;
     font-size: 0.6em;
     font-weight: 700;
-    color: darken($white, 15%);
+    color: #3cb878;
 }
 .citacao{
   font-size: 18px;
@@ -35,8 +35,7 @@ footer {
   font-style: italic;
 }
 .table{
-  display: block;
-  text-align: left;
+  text-align: justify;
   font-family: Tahoma;
   font-size: 14px;
   font-style: italic;	

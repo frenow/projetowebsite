@@ -28,9 +28,9 @@ function Listar(){
     for(var i in comentario){
         var obj = JSON.parse(comentario[i]);
 		
-        $("#tblListar tbody").append("<tr><div>");
+        $("#tblListar tbody").append("<tr><div class='media mb-4'>");
         $("#tblListar tbody").append("<td><img class='d-flex mr-3 rounded-circle' src='img/comentario.png' alt='' width='50' height='50'>");
-        $("#tblListar tbody").append("<div><h5>"+obj.Nome+"</h5>"+obj.Comentario+"</div></td>");
+        $("#tblListar tbody").append("<div class='media-body'><h5 class='mt-0'>"+obj.Nome+"</h5>"+obj.Comentario+"</div></td>");
         $("#tblListar tbody").append("</div></tr>");
     }
 }
